@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Home
+  url: http://nanalakshmanan.github.io/
+
+- title: About
+  url: http://nanalakshmanan.github.io/about/
+
+- title: Articles
+  url: http://nanalakshmanan.github.io/articles/
+
+- title: Blog
+  url: http://nanalakshmanan.github.io/blog/
+
+#- title: LinkedIn
+#  url: https://www.linkedin.com/in/nanalakshmanan
+
+#- title: Theme Setup
+#  url: /theme-setup/
+
+- title: Search
+  url: http://nanalakshmanan.github.io/search/

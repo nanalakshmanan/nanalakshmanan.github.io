@@ -1,0 +1,71 @@
+# Site wide configuration
+
+title: Nana Lakshmanan
+locale: en_US
+description: I came, I said, I vanished...
+logo: bio-photo.jpg
+search: true
+url: http://nanalakshmanan.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Nana Lakshmanan
+  avatar: bio-photo.jpg
+  email: nanalakshmanan@gmail.com
+  disqus-shortname:
+  twitter: nanalakshmanan
+  facebook: #username
+  github: nanalakshmanan
+  stackexchange: http://stackoverflow.com/users/4639136/nana-lakshmanan
+  linkedin: nanalakshmanan
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
