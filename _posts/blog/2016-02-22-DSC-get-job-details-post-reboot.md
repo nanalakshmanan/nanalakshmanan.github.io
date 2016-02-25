@@ -54,7 +54,7 @@ configuration Settings
 {
     Settings
     {
-        ActionAfterReboot  = 'Stop'
+        ActionAfterReboot  = 'StopConfiguration'
         RebootNodeIfNeeded = $false
     }
 }
