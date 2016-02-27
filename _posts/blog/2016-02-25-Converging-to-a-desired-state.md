@@ -6,6 +6,7 @@ categories: blog
 excerpt:
 tags: [DSC]
 share: true
+comments: true
 image:
   feature:
 ---
