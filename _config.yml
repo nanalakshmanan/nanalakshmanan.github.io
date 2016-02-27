@@ -51,7 +51,7 @@ owner:
   name: Nana Lakshmanan
   avatar: bio-photo.jpg
   email: nanalakshmanan@gmail.com
-  disqus-shortname:
+  disqus-shortname: nanalakshmanan
   twitter: nanalakshmanan
   facebook: #username
   github: nanalakshmanan
@@ -69,3 +69,5 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+  
