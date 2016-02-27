@@ -6,7 +6,7 @@ description: I came, I said, I vanished...
 logo: bio-photo.jpg
 search: true
 url: http://nanalakshmanan.github.io
-
+comments: true
 # Jekyll configuration
 
 permalink:   /:categories/:title/
