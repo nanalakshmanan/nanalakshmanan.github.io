@@ -43,4 +43,4 @@ This module provides the following simple cmdlet for generating a self-signed ce
 New-xSelfSignedDscEncryptionCertificate -EmailAddress nanalakshmanan@gmail.com -ExportFilePath D:\MyCerts
 ```
 
-Hopefully this should minimize the barrier to trying out credential encryption in DSC and limit the use of ```PSDscAllowPlainTextPassword``
+Hopefully this should minimize the barrier to trying out credential encryption in DSC and limit the use of ```PSDscAllowPlainTextPassword```
