@@ -45,13 +45,13 @@ New-SmbShare -Name DSCShare -Path D:\Nana\Official\DscShare -Description 'File s
 **Making Modules Available**
 Once we have the share setup, we need to ensure that the modules are packaged and made available as required by the DSC pull protocol. These are easily automatable steps and we can see how to achieve the same
 
-1. If you are downloading modules from the PowerShell Gallery (like in this case), save the module to a disk location
+* If you are downloading modules from the PowerShell Gallery (like in this case), save the module to a disk location
 
 ```PowerShell
 Find-Module xPSDesiredStateConfiguration | Save-Module -Path D:\Nana\Official\DownloadedModules -Verbose
 ```
 
-2. Then we need to zip this module as required by DSC pull. Here are a few requirements on the zip structure
+* Then we need to zip this module as required by DSC pull. Here are a few requirements on the zip structure
    * The zip file should be named <ModuleName_Version>.zip. So in our case it needs to be xPSDesiredStateConfiguration_3.7.0.0.zip
    * The contents of the module should be at the root level. That simply means the zip file cannot contain a folder 3.7.0.0 but should contain all the contents within it
 
@@ -61,7 +61,7 @@ We can achieve the above using the following PowerShell cmdlet
 Compress-Archive -Path D:\Nana\Official\DownloadedModules\xPSDesiredStateConfiguration\3.7.0.0\* -DestinationPath D:\Nana\Official\DscShare\xPSDesiredStateConfiguration_3.7.0.0.zip -Verbose
 ```
 
-3. Once we have the zip file created, we then need to create its checksum
+* Once we have the zip file created, we then need to create its checksum
 
 ```PowerShell
 New-DscChecksum -Path D:\Nana\Official\DscShare\xPSDesiredStateConfiguration_3.7.0.0.zip -OutPath D:\Nana\Official\DscShare -Verbose
