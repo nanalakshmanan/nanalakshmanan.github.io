@@ -10,7 +10,6 @@ share: true
 
 DSC runs configurations in the System context. Why? How to change that?
 
-
 The DSC Agent, also called the **LocalConfigurationManager (LCM)**, performs any operation in the **LocalSystem** context. There are two main reasons as to why it is done this way:
 * Running something in local system context provides the LCM with necessary privileges to configure the system
 * LCM can proceed after a system reboot without requiring an interactive user session or saving user credentials (*which is needed to run as a specified user context*)
