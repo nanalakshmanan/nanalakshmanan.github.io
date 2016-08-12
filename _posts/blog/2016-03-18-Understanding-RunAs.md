@@ -35,4 +35,3 @@ When a resource is specified to run under a user context, LCM creates a process 
 * Script resource (using schema.mof): $PsDscContext.RunAsUser  
 * Class based resource : $global:PsDscContext.RunAsUser  
 
-
