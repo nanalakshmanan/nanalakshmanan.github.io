@@ -5,8 +5,8 @@ excerpt: "Software Development Manager, Amazon Channels (Videos)"
 modified: 2017-01-21 16:56:32
 ---
 
-Narayanan (Nana) Lakshmanan is a Software Development Manager with Amazon Channels part of Amazon Videos.
-Before joining Amazon Channels, he was a Principal Software Engineering Manager in the Cloud and Enterprise Division at 
+Narayanan (Nana) Lakshmanan is a Software Development Manager with [Amazon EC2 Systems Manager](https://aws.amazon.com/ec2/systems-manager/) part of [Amazon Web Services](https://aws.amazon.com/) .
+Before joining Amazon, he was a Principal Software Engineering Manager in the Cloud and Enterprise Division at 
 [Microsoft](http://www.microsoft.com). Nana has over 15 years of experience in the industry. He has experience delivering 
 software in a variety of ship vehicles like Windows Server, Windows, Microsoft Azure, OpenSource projects on GitHub and 
 [Microsoft OMS](https://www.microsoft.com/en-us/server-cloud/operations-management-suite/overview.aspx). He is now all 
